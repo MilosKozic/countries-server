@@ -6,7 +6,7 @@ const cors = require('cors')
 const PORT = process.env.PORT || 5001;
 
 
-const dbUri =process.env.DB_URL
+const dbUri ='mongodb+srv://milos:test11..@cluster0.3ddo7.mongodb.net/users?retryWrites=true&w=majority'
 
 const app = express()
 
