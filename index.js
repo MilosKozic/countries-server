@@ -6,7 +6,7 @@ const cors = require('cors')
 
 
 
-const dbUri =process.env.MONGO_URI
+const dbUri =process.env.DB_URL
 
 const app = express()
 
