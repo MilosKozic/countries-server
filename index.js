@@ -6,7 +6,7 @@ const cors = require('cors')
 
 
 
-const dbUri ='mongodb+srv://milos:test11..@cluster0.3ddo7.mongodb.net/users?retryWrites=true&w=majority'
+const dbUri =process.env.MONGO_URI
 
 const app = express()
 
