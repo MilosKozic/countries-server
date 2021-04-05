@@ -3,7 +3,7 @@ const morgan = require('morgan')
 const mongoose = require('mongoose')
 const Users = require('./users.js')
 const cors = require('cors')
-
+const PORT = process.env.PORT || 5001;
 
 
 const dbUri =process.env.DB_URL
@@ -41,5 +41,5 @@ app.post('/users',(req,res)=>{
          })
 })
 app.use(defaultEndpoint)
- app.listen(3005)
+ app.listen(PORT)
 
